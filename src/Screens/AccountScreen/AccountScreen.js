@@ -60,12 +60,12 @@ const AccountScreen = (props) => {
                     </View>
                 </View>
                     <CustomLine width={"85%"} align={"center"} marginTop={sizeHelper.calHp(90)} />
-                    {/* <View style={{flex:1, alignItems:'center', justifyContent:"center", flexDirection:'row', marginTop:sizeHelper.calHp(50)}}>
+                    <View style={{flex:1, alignItems:'center', justifyContent:"center", flexDirection:'row', marginTop:sizeHelper.calHp(50)}}>
                         <View style={styles.LogOutImageCircle}>
                             <Image source={images.logout}/>
                         </View>
                         <CustomText text={"Log Out"} color={"#FF0000"} size={30} marginL={sizeHelper.calWp(20)}/>
-                    </View> */}
+                    </View>
                 </ScrollView>
             </View>
         </View>
